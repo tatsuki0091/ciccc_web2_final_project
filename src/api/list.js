@@ -1,14 +1,14 @@
-const fetchSerieAUrl = 'http://api.football-data.org/v2/competitions/2019/';
+const fetchSerieAUrl = 'https://api.football-data.org/v2/competitions/2019/';
 const fetchMatchSerieAUrl =
-  'http://api.football-data.org/v2/competitions/2019/matches';
+  'https://api.football-data.org/v2/competitions/2019/matches';
 
-const fetchLaLigaUrl = 'http://api.football-data.org/v2/competitions/2014/';
+const fetchLaLigaUrl = 'https://api.football-data.org/v2/competitions/2014/';
 const fetchMatchLaLigaUrl =
-  'http://api.football-data.org/v2/competitions/2014/matches';
+  'https://api.football-data.org/v2/competitions/2014/matches';
 
-const fetchCLUrl = 'http://api.football-data.org/v2/competitions/2001/';
+const fetchCLUrl = 'https://api.football-data.org/v2/competitions/2001/';
 const fetchMatchCLUrl =
-  'http://api.football-data.org/v2/competitions/2001/matches';
+  'https://api.football-data.org/v2/competitions/2001/matches';
 
 export const fetchSA = async () => {
   const requestOptions = {
